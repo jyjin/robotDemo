@@ -1,0 +1,32 @@
+http://robt.online000.com/robot/
+http://xxx.xxx.xxx.xxx/robot/RobotOpenSession.aspx?appid=365webcall&accountid=211827&userid=215799&timestamp=1436609441&signature=ca400961ffe2d57f29ef42e4b3f6e
+
+
+accountid=1005601
+userid=221070
+appid=365webcall
+appkey=adef2244abc12qwrttaggkghh
+
+timestamp=1527751975961
+timtstamp=1436609441
+
+http://robt.online000.com/robot/RobotOpenSession.aspx?appid=365webcall&accountid=1005601&userid=221070&timestamp=1527751975&signature=d0bbb38838f71436
+
+
+
+host      = http://robt.online000.com/robot/
+url	  = http://xxx.xxx.xxx.xxx/robot/RobotOpenSession.aspx?appid=365webcall&accountid=211827&userid=215799&timestamp=1436609441&signature=ca400961ffe2d57f29ef42e4b3f6e
+
+accountid = 1005601  【子公司编号】
+userid    = 221070	【调用者编号】
+appid     = 365webcall  【总公司标识】
+appkey    = adef2244abc12qwrttaggkghh 【加密密匙】
+
+timestamp = 1527751975 => 2018/5/31 15:32:55 【时间戳】
+signature = md5 url串【appid=365webcall&accountid=1005601&userid=221070&timestamp=1527751975】+appkey【adef2244abc12qwrttaggkghh】
+          = md5("appid=365webcall&accountid=1005601&userid=221070&timestamp=1527751975adef2244abc12qwrttaggkghh")
+          = d0bbb38838f71436 【检验串】
+
+=>
+
+http://robt.online000.com/robot/RobotOpenSession.aspx?appid=365webcall&accountid=1005601&userid=221070&timestamp=1527751975&signature=d0bbb38838f71436

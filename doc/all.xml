@@ -1,0 +1,17 @@
+<xml>   
+<clientid>1528089216176</clientid>				
+<way>0</way>								
+<defaultreply>0</defaultreply>
+<log>1</log>
+<ipaddress>127.0.0.1</ipaddress>
+<sentence>hello</sentence>
+<comparetitle>1</comparetitle>
+<includekey>1</includekey>
+<includetitle>1</includetitle>
+<includeright>1</includeright>
+<includekid>1</includekid>
+<includenum>1</includenum>
+<includeprivate>1</includeprivate>
+<maxcount>5</maxcount>
+<rightdesc>0</rightdesc>
+</xml>
